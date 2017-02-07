@@ -1,13 +1,13 @@
 <?php
-class jobOpening {
+class Job_opening {
     public $title;
     public $description;
     public $contact;
 
-    function __construct($opening_title, $opening_description, $openining_contact){
+    function __construct($opening_title, $opening_description, $opening_contact){
         $this->title = $opening_title;
         $this->description = $opening_description;
-        $this->contact = $openining_contact;
+        $this->contact = $opening_contact;
     }
 }
 class Contact{
